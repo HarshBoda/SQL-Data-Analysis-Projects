@@ -1,0 +1,5 @@
+In this project, I worked with 'nyc data'.this data contains different columns like (id,name,host_id,host_name,neighbourhood_group,neighbourhood,room_type) 
+ 
+To solve the problem statement i used complex SQL queries. I applied various SQL concepts such as joins, groupby,aggregate functions, window functions, and subqueries to obtain the desired results. 
+
+The queries involved analyzing the data from multiple tables and using advanced functions to extract meaningful insights. Overall, the project required a strong understanding of SQL and the ability to apply complex queries to a real-world scenario.
