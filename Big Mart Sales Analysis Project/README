@@ -1,0 +1,11 @@
+The Big Mart sales analysis project involves working with a dataset that contains information on various items sold at Big Mart stores, such as their weight, 
+fat content, visibility, type, and maximum retail price. It also includes information about the stores themselves, such as their establishment year, size, location type, 
+and outlet type. The final variable in the dataset is the item outlet sales.
+
+To analyze this data, SQL concepts such as joins, window functions, subqueries, group by, and aggregate functions have been utilized. Joins are used to combine 
+data from multiple tables, while window functions are used to perform calculations on subsets of data based on a specified window. Subqueries are used to retrieve 
+data from one table based on conditions in another table. Group by is used to group data based on a particular column or set of columns, and aggregate functions are 
+used to perform calculations on these groups.
+
+By using these SQL concepts, the project has been able to derive useful insights from the dataset, which could help in making decisions related to sales strategies, 
+inventory management, and store operations.
