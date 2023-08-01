@@ -16,7 +16,7 @@ where Order_Date between '2020-12-01' and '2020-12-31';
 select * from copy_of_superstore_orders
 where Ship_Mode not in ("standard class","first class") and ship_date > '2020-11-30';
 
--- 4- write a query to get all the orders where customer name neither start with "A" and nor ends with "n" (9815 rows)
+-- 4- write a query to get all the orders where the customer name neither start with "A" and nor ends with "n" (9815 rows)
 
 select * from copy_of_superstore_orders
 where customer_name not like 'A%' and customer_name not like '%n';
