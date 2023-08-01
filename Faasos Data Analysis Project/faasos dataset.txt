@@ -29,14 +29,14 @@ drop table if exists rolls;
 CREATE TABLE rolls(roll_id integer,roll_name varchar(30)); 
 
 INSERT INTO rolls(roll_id ,roll_name) 
- VALUES (1	,'Non Veg Roll'),
+ VALUES (1	,'Non-Veg Roll'),
 (2	,'Veg Roll');
 
 drop table if exists rolls_recipes;
 CREATE TABLE rolls_recipes(roll_id integer,ingredients varchar(24)); 
 
 INSERT INTO rolls_recipes(roll_id ,ingredients) 
- VALUES (1,'1,2,3,4,5,6,8,10'),
+ VALUES (1, '1,2,3,4,5,6,8,10'),
 (2,'4,6,7,9,11,12');
 
 drop table if exists driver_order;
